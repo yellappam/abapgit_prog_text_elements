@@ -14,7 +14,7 @@ START-OF-SELECTION.
 
 FORM execute .
 
-  DATA: lv_variable1 TYPE ydtel_1.
+  DATA: lv_variable1 TYPE flag.
 
   WRITE: p_kunnr,
          lv_variable1.
